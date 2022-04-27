@@ -172,6 +172,10 @@ var fixtures = Fixtures{{
 }, {
 	Tags:         []string{"packfile", "delta-before-bash"},
 	PackfileHash: "90fedc00729b64ea0d0406db861be081cda25bbf",
+}, {
+	// https://github.internal.digitalocean.com/zeddy/failed-clone-debugging
+	Tags:         []string{"packfile", "do-test"},
+	PackfileHash: "bdac6815b22a8773e207a0b483ab35c5c96a077c",
 }}
 
 func All() Fixtures {
